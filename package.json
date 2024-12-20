@@ -1,0 +1,54 @@
+{
+  "name": "portfoliovet",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:3000",
+  "dependencies": {
+    "@react-google-maps/api": "^2.20.3",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "aws-sdk": "^2.1692.0",
+    "jwt-decode": "^4.0.0",
+    "leaflet": "^1.9.4",
+    "leaflet.fullscreen": "^3.0.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.4.0",
+    "react-intersection-observer": "^9.13.1",
+    "react-leaflet": "^4.2.1",
+    "react-router-dom": "^7.0.2",
+    "react-scripts": "5.0.1",
+    "twilio": "^5.3.6",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "server": "cd api && node server.js",
+    "dev": "concurrently \"npm start\" \"npm run server\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
